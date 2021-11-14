@@ -1,0 +1,47 @@
+/* ======== VARIABLES ======== */
+:root {
+  --clr-primary: #EA5353;
+  --clr-secondary: #45D3D3;
+  --clr-tertiary: #FCAF4A;
+  --clr-quaternary: #549EF2;
+  --clr-base: #A3A5AE;
+  --clr-base-dk: #4C4E61;
+  --clr-helper: #FAFAFA;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Poppins', sans-serif;
+}
+/* ========== RESET ========== */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--ff-primary);
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+ul, ol {
+  list-style: none;
+}
+picture, img {
+  max-width: 100%;
+  display: block;
+}
+button, input, textarea, select, optgroup {
+  font: inherit;
+}
+button, [type="submit"] {
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
